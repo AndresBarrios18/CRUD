@@ -40,12 +40,12 @@ public class ListDAO<T> extends AbstractDAO<T> {
         // Implementa la lógica para eliminar un elemento de la lista según el ID
     }
 
-    @Override
+
     public void saveToFile(T entity) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    @Override
+
     public void saveToDatabase(T entity) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }

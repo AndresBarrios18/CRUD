@@ -13,12 +13,12 @@ import java.sql.SQLException;
  */
 public class DatabaseDAO<T> extends AbstractDAO<T> {
 
-    @Override
+
     public void saveToFile(T entity) {
         // Aquí puedes implementar la lógica para guardar en un archivo si es necesario
     }
 
-    @Override
+
     public void saveToDatabase(T entity) {
     // Aquí implementamos la lógica para guardar en la base de datos
     String query = "INSERT INTO ProgresoMetas (GoalID, MontoAcumulado, FechaActualizacion) VALUES (?, ?, ?)";
